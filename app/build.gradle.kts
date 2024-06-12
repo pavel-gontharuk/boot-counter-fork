@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId = "com.gontharuk.bootcounter"
-        minSdk = 26
+        minSdk = 24
         compileSdk = 34
         targetSdk = 34
         versionCode = 1
