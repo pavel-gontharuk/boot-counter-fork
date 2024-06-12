@@ -17,3 +17,4 @@ rootProject.name = "Boot Counter"
 include(":app")
 include(":presentation")
 include(":data")
+include(":domain")

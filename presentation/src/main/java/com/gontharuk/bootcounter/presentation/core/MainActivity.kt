@@ -16,13 +16,17 @@ import dagger.hilt.android.AndroidEntryPoint
  * TODO :
  *  App: -----------------
  *  Broadcast receiver for RECEIVE_BOOT_COMPLETED event
+ *  Worm manager to run notifications event every 15 min
+ *  Add DI modules and inject dependencies in App
  *  PRESENTATION: -----------------
  *  Date formatter
  *  BootCounterViewModel
  *  WorkManager
  *  DATA: -----------------
  *  BootCounterRepository
- *  BootCounterDaoImplementation
+ *  BootCounter Database impl
+ *  DOMAIN: ---------------
+ *  IBootCounterRepository
  */
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
