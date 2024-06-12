@@ -16,12 +16,11 @@ import dagger.hilt.android.AndroidEntryPoint
  * TODO :
  *  App: -----------------
  *  Broadcast receiver for RECEIVE_BOOT_COMPLETED event
- *  Worm manager to run notifications event every 15 min
+ *  Work manager to run notifications event every 15 min
  *  Add DI modules and inject dependencies in App
  *  PRESENTATION: -----------------
- *  Date formatter
- *  BootCounterViewModel
- *  WorkManager
+ *  Date UI formatter
+ *  BootCounterViewModel - connect IBootEventRepository pipe (i.e. getAll(): Flow<BootEvent>) with UI via state flow
  *  DATA: -----------------
  *  BootCounterRepository
  *  BootCounter Database impl
