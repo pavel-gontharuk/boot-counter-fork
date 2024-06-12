@@ -12,6 +12,18 @@ import androidx.compose.ui.text.style.TextAlign
 import com.gontharuk.bootcounter.presentation.core.theme.AppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
+/**
+ * TODO :
+ *  App: -----------------
+ *  Broadcast receiver for RECEIVE_BOOT_COMPLETED event
+ *  PRESENTATION: -----------------
+ *  Date formatter
+ *  BootCounterViewModel
+ *  WorkManager
+ *  DATA: -----------------
+ *  BootCounterRepository
+ *  BootCounterDaoImplementation
+ */
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
